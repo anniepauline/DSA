@@ -2,11 +2,11 @@ class Stack {
 
     final int MAX_SIZE = 10;
     int[] array = new int[MAX_SIZE];
-    int top = -1;
+    int top = -1; // empty stack
 
     public static void push(int x, Stack s) {
         if (s.top == s.MAX_SIZE - 1) {
-            System.out.println("Stac overflow");
+            System.out.println("Stack overflow");
         }
         s.top++;
         s.array[s.top] = x;
