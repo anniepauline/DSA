@@ -5,11 +5,10 @@ class LargestSmallest {
         int arr[] = { 1, 2, 4, 7, 7, 5 };
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
-
         // second min
-        int minner = min;
+        int s_min = min;
         // second max
-        int maxxer = max;
+        int s_max = max;
 
         for (int i = 0; i < arr.length; i++) {
             min = Math.min(min, arr[i]);
@@ -17,17 +16,14 @@ class LargestSmallest {
         }
 
         for (int i = 0; i < arr.length; i++) {
-            // update 2nd min
-            if (arr[i] > maxxer && arr[i] != max) {
-                maxxer = arr[i];
+            // 2nd max != max and greater than maxxer
+            if (arr[i] > s_max && arr[i] != max) {
+                s_max = arr[i];
             }
-            // update 2nd max
-            if (arr[i] < minner && arr[i] != min) {
-                minner = arr[i];
+            // 2nd min != min and lesser than minner
+            if (arr[i] < s_min && arr[i] != min) {
+                s_min = arr[i];
             }
         }
-
-        System.out.println(minner + " " + maxxer);
-
     }
 }
