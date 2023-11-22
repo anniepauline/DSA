@@ -16,11 +16,11 @@ class LargestSmallest {
         }
 
         for (int i = 0; i < arr.length; i++) {
-            // 2nd max != max and greater than maxxer
+            // 2nd max != max and greater than s_max
             if (arr[i] > s_max && arr[i] != max) {
                 s_max = arr[i];
             }
-            // 2nd min != min and lesser than minner
+            // 2nd min != min and lesser than s_min
             if (arr[i] < s_min && arr[i] != min) {
                 s_min = arr[i];
             }
