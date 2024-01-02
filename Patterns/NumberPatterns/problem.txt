@@ -1,0 +1,15 @@
+1.WAP to print the sum of the highest sum of 2 elements in a given array
+ex - 10 5 15 20 14 13 9 
+o/p : 35 15 20
+explanation : 
+add 2 consecutive elements, find the highest element = 35 which came from 15 and 20
+15 20 35 34 27 22 max:35= 5 + 20
+
+2.WAPTD the common elements b/w arrays
+arr1 = { 10 5 15 20 14 3 9 }  
+arr2=  { 5 9 10 15 22 24 }
+
+3.WAPTD how many times an elements occurs in a given array
+ex - 8 9 11 13 9 11 12 11 14
+i/p: 11
+o/p: -> 3       

@@ -1,0 +1,12 @@
+1.Factors of a number
+2.HCF 
+Brute force : O(min(a,b))   | Worst case : O(max(a,b)) using euclid
+3.Print amstrong using recursion
+4.print fibo
+5.print first 5 fibo
+6. 1
+   2  3
+   4  5  6
+   7  8  9  11
+   22 33 44 55   66
+   77 88 99 101  121 
