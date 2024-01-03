@@ -1,14 +1,12 @@
 package StringPatterns;
 
-public class replace {
+public class replaceEnd {
+
     public static void main(String[] args) {
         String sentence = "India is my country ";
+        String toReplace = "country";
+        String newStr = "home";
 
-        String toReplace = "India";
-
-        String newStr = "Bharath";
-        // System.out.println(sentence);
-        // System.out.println(sentence.replace(toReplace, newStr));
         String word = "";
         for (int i = 0; i < sentence.length(); i++) {
             char c = (sentence.charAt(i));
@@ -24,6 +22,5 @@ public class replace {
                 word += c;
             }
         }
-        // System.out.print(word);
     }
 }
