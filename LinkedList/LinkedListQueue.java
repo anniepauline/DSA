@@ -8,7 +8,7 @@ public class LinkedListQueue {
 
         Node(int data) {
             this.data = data;
-            next = null;
+            next =null;
         }
     }
 
